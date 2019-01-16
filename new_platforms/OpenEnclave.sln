@@ -107,7 +107,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LocalAttestationEnc", "samp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "vsextension", "vsextension", "{40407F4A-FD36-4E06-9683-C034E297960A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Open Enclave SDK", "vsextension\ProjectWizard\Open Enclave SDK.csproj", "{7942F7C6-D426-4123-B825-CE7BD3CBAB33}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VS Extension", "vsextension\ProjectWizard\VS Extension.csproj", "{7942F7C6-D426-4123-B825-CE7BD3CBAB33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
