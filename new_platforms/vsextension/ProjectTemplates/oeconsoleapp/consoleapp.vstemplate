@@ -10,6 +10,7 @@
     <LocationField>Enabled</LocationField>
     <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
     <Icon>__TemplateIcon.ico</Icon>
+    <PromptForSaveOnCreation>true</PromptForSaveOnCreation>
   </TemplateData>
   <TemplateContent>
     <Project TargetFileName="$projectname$.vcxproj" File="MuConsoleApp.vcxproj" ReplaceParameters="true">
@@ -18,4 +19,13 @@
       <ProjectItem ReplaceParameters="true">ocalls.c</ProjectItem>
     </Project>
   </TemplateContent>
+  <WizardExtension>
+    <Assembly>NuGet.VisualStudio.Interop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Assembly>
+    <FullClassName>NuGet.VisualStudio.TemplateWizard</FullClassName>
+  </WizardExtension>
+  <WizardData>
+    <packages repository="extension" repositoryId="OpenEnclaveVisualStudioExtension-1">
+      <package id="openenclave" version="0.2.0-CI-20190115-121358" />
+    </packages>
+  </WizardData>
 </VSTemplate>
